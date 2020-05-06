@@ -15,3 +15,122 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+body{
+    max-width: 1170px;
+    height: 594px;
+    color: white;
+    font-family: Rubik-Regular;
+    font-size: 0.9375rem;
+    background-color: #103268;
+    margin: auto;
+
+}
+
+h2{
+    font-size: 1.25rem;
+}
+
+p, li{
+    line-height: 2rem;
+}
+li{
+    list-style: none;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* FOOTER - FLEX 1 */
+#flex{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 444px;
+    margin-top: 148px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#flex > section:nth-child(1) {
+    flex: 0 30%;
+    width: 285px;
+}
+#flex > section:nth-child(2) {
+    flex: 0 20%;
+}
+#flex > section:nth-child(3) {
+    flex: 0 20%;
+}
+#flex > section:nth-child(4) {
+    flex: 0 30%;
+}
+
+/* FORMULAIRE EMAIL ADRESS */
+
+input[type=submit] {
+    width: 140px;
+    height: 56px;
+    margin-top:1rem;
+    color: white;
+    cursor:pointer;
+    border-radius: 28px;
+    border: none;
+    font-family: rubik-medium;
+    font-size: 1.125rem;
+    background-color: #FF8400;
+    box-shadow: 0px 0px 31px 0px rgba(255, 132, 0, 0);
+    margin-left: 53%;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 56px;
+    border-radius: 28px;
+    font-family: rubik;
+    font-size: 0.9375rem;
+    padding-left: 1rem;
+}    
+   
+#fieldset{ 
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* SOCIAL NETWORK */
+
+#social_network {
+    display: flex;
+    justify-content: space-between;
+    width: 216px;
+    height: 45px;
+    padding-top: 0;
+    margin-top: 2rem;
+}
+
+/* FOOTER - FLEX 2 */
+
+#flexendfooter{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(img/background_opacity.png);
+    background-size: auto;
+
+
+}
+
+footer > div > ul {
+    display: flex;
+    margin: 0;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+footer > div > ul > li{
+    margin-left: 30px;
+}
